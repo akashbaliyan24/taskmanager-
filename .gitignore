@@ -9,9 +9,4 @@ node_modules/
 .DS_Store
 thumbs.db
 
-.prettierignore
-.prettierrc
-package-lock.json
-package.json
-n 
 
