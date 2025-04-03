@@ -14,4 +14,4 @@ connectDB()
     .catch((err) => {
         console.error("monngodb connection error", err)
         process.exit(1)
-    })
+    }) ; 
