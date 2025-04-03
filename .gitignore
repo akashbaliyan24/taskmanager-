@@ -8,3 +8,9 @@ node_modules/
 # ignore system files 
 .DS_Store
 thumbs.db
+
+.prettierignore
+.prettierrc
+package-lock.json
+package.json
+
