@@ -82,7 +82,7 @@ userSchema.methods.gnerateAcessToken = function(){
     )
 }
 
-userSchema.methods.genrateRefreshToken = function () {
+userSchema.methods.gnerateRefreshToken = function () {
     return jwt.sign(
        { _id : this._id},
 
@@ -91,7 +91,7 @@ userSchema.methods.genrateRefreshToken = function () {
     )
 }
 
-userSchema.methods.genrateTemporaryToken = function(){
+userSchema.methods.gnerateTemporaryToken = function(){
     const unHashedToken = crypto.randomBytes(20).toString("hex")
 
    const hashedToken =  crypto
